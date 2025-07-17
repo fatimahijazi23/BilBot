@@ -1,4 +1,4 @@
-# 🤖 BilBot - Lebanese Arabic Voice-Controlled Object Retrieval Robot
+# BilBot - Lebanese Arabic Voice-Controlled Object Retrieval Robot
 
 BilBot is an AI-powered autonomous robot designed to interpret Lebanese Arabic voice commands, identify requested objects in its environment, and move toward them. It integrates advanced technologies like GPT-4 (via OpenAI), Whisper, computer vision, inverse kinematics, and Telegram notifications to deliver a fully interactive experience.
 
