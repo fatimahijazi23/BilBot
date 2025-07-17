@@ -27,20 +27,10 @@ BilBot is an AI-powered autonomous robot designed to interpret Lebanese Arabic v
 - USB Microphone
 - Camera (e.g., PiCamera or IP Cam stream)
 
-```markdown
+
 ### Software & Libraries
 
 Install the following Python libraries:
 
 ```bash
 pip install opencv-python numpy pandas sounddevice scipy gTTS openai aiogram
-
-## Configuration
-
-Set your API keys and credentials in the script:
-
-```python
-API_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
-CHAT_ID = YOUR_CHAT_ID
-client = openai.OpenAI(api_key="YOUR_OPENAI_API_KEY")
-
