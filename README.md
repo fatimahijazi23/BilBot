@@ -37,7 +37,7 @@ pip install opencv-python numpy pandas sounddevice scipy gTTS openai aiogram
 
 
 
-Ensure you also have:
+###Ensure you also have:
 
 mpg123 (for audio playback)
 
@@ -45,16 +45,14 @@ OpenAI API Key with access to GPT-4 and Whisper
 
 Telegram Bot API Token
 
-🔧 Configuration
+###Configuration
 Set your API keys and credentials in the script:
 
-python
-Copy
-Edit
+```bash
 API_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
 CHAT_ID = YOUR_CHAT_ID
 client = openai.OpenAI(api_key="YOUR_OPENAI_API_KEY")
-🚀 How It Works
+### How It Works
 Voice Input: Robot records your command in Lebanese Arabic.
 
 Speech Processing:
@@ -82,4 +80,3 @@ Notifies you via Telegram with snapshot
 Loop:
 
 Asks if you want to search for another object
-
