@@ -35,16 +35,23 @@ Install the following Python libraries:
 pip install opencv-python numpy pandas sounddevice scipy gTTS openai aiogram
 ---
 
-## Features
+### Summary checklist:
 
-- **Arabic Voice Recognition**: Captures and transcribes voice commands in Lebanese Arabic using OpenAI Whisper.
-- **Arabic to English Translation**: Translates Lebanese Arabic into English using GPT-4.
-- **Object Extraction & Synonym Detection**: Extracts the object name from speech and generates a dynamic list of synonyms via GPT-4.
-- **Image Inspection via GPT-4 Vision**: Takes snapshots and asks GPT-4 if the object appears in the image.
-- **Object Location Detection**: Determines relative position of objects (e.g. "left", "right", etc.) using GPT-4 Vision.
-- **Autonomous Movement**: Uses mecanum wheels and sonar sensor to navigate toward the object.
-- **Arabic Text-to-Speech (TTS)**: Converts status messages and prompts to spoken Arabic using gTTS.
-- **Telegram Bot Integration**: Sends messages and photos to a Telegram chat for real-time updates.
+- Start code block with exactly three backticks and the language (e.g., ```bash)  
+- Write your commands inside  
+- Close the block with exactly three backticks (```) on a new line  
+- Then write your normal text after that
+
+If you forget the closing backticks, the markdown parser will think everything is code.
 
 ---
+
+If you want, I can check your exact markdown snippet and point out where to fix it!
+
+
+
+
+
+
+
 
