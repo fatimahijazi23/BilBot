@@ -27,31 +27,20 @@ BilBot is an AI-powered autonomous robot designed to interpret Lebanese Arabic v
 - USB Microphone
 - Camera (e.g., PiCamera or IP Cam stream)
 
+```markdown
 ### Software & Libraries
 
 Install the following Python libraries:
 
 ```bash
 pip install opencv-python numpy pandas sounddevice scipy gTTS openai aiogram
----
 
-### Summary checklist:
+## Configuration
 
-- Start code block with exactly three backticks and the language (e.g., ```bash)  
-- Write your commands inside  
-- Close the block with exactly three backticks (```) on a new line  
-- Then write your normal text after that
+Set your API keys and credentials in the script:
 
-If you forget the closing backticks, the markdown parser will think everything is code.
-
----
-
-If you want, I can check your exact markdown snippet and point out where to fix it!
-
-
-
-
-
-
-
+```python
+API_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
+CHAT_ID = YOUR_CHAT_ID
+client = openai.OpenAI(api_key="YOUR_OPENAI_API_KEY")
 
