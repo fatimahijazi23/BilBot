@@ -34,7 +34,7 @@ Install the following Python libraries:
 ```bash
 pip install opencv-python numpy pandas sounddevice scipy gTTS openai aiogram
 
-
+---
 
 
 ###Ensure you also have:
